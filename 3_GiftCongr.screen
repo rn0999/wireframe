@@ -20,6 +20,9 @@
   <widgets xsi:type="model:Link" id="24" x="295" y="504" text="Click here to visit My Coupons page" measuredWidth="251" measuredHeight="28" link="3_GiftCoupon.screen">
     <font size="15px" bold="true"/>
   </widgets>
+  <widgets xsi:type="model:Label" id="25" x="240" y="136" measuredWidth="38" measuredHeight="32" icon="assets/ic-arrow-back (large)" link="3_Chatbot_3.screen">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
