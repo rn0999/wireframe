@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="32" x="122" y="111" text="ONLINE SHOPPING" foreground="#f90">
+          <font size="22px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="278" y="120" measuredWidth="6" measuredHeight="31">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="221" y="160" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="35" x="231" y="176" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="497" y="183" text="Hello *Xyz Lmn*" measuredWidth="124" measuredHeight="33">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="37" x="221" y="232" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="38" x="304" y="180" width="162" text="My Coupons" measuredWidth="162" measuredHeight="39" foreground="#f90">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="39" x="231" y="264" width="378" height="233" measuredWidth="378" measuredHeight="233" background="#f90" alpha="64" foreground="#fff" border="dashed-rounded"/>
+  <widgets xsi:type="model:Label" id="40" x="269" y="280" width="316" text="Coupon Worth Rs. 3000" measuredWidth="316" measuredHeight="39" foreground="#f90">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="42" x="269" y="318" width="284" height="65" text="You can add this coupon code on your purchase. View the code using redeem option." measuredWidth="284" measuredHeight="65" background="#f90" alpha="192" borderColor="#f90">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="383" y="392" text="REDEEM" measuredWidth="86" measuredHeight="36" link="3_GiftCouponCode.screen">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="560" y="288" measuredWidth="30" measuredHeight="24" foreground="#f90" icon="info (medium)" link="3_CouponInfo2.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="47" x="264" y="458" measuredWidth="316" measuredHeight="25">
+    <widgets xsi:type="model:Label" id="44" text="Time left for Activation : 47:58:30 " measuredWidth="217" measuredHeight="25">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Master" id="46" x="216" y="9" measuredWidth="100" measuredHeight="8">
+      <screen xsi:type="model:WidgetGroup" href="assets/Android5/Controls.screen#Progress%20Bar"/>
+      <overrides>
+        <widgets ref="25">
+          <attributes key="background" value="#f00"/>
+          <attributes key="value" value="90"/>
+        </widgets>
+      </overrides>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

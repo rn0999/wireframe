@@ -25,12 +25,11 @@
   <widgets xsi:type="model:TextField" id="36" x="328" y="432" width="273" text="Placed on 9 Sept at 07:41 PM" measuredWidth="273" measuredHeight="36" textAlignment="Center" background="#073763">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="37" x="260" y="480" measuredWidth="344" measuredHeight="209">
+  <widgets xsi:type="model:Master" id="37" x="260" y="480" measuredWidth="340" measuredHeight="201">
     <screen xsi:type="model:Screen" href="assets/Chatbotmessage.screen#/"/>
     <overrides>
-      <widgets ref="2" x="55" height="209" text="We're sorry about your order experience. We are working on it. A coupon has been added to your account as a token of apology. Please click on View Details to get more information."/>
-      <widgets ref="3" y="176"/>
-      <widgets ref="1" x="249"/>
+      <widgets ref="2" height="201" text="We're sorry about your order experience. We are working on it. A coupon has been added to your account as a token of apology. Please click on gift icon to get your coupon"/>
+      <widgets ref="3" y="132"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Button" id="38" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
@@ -42,8 +41,11 @@
   <widgets xsi:type="model:Button" id="40" x="312" y="376" width="281" text="Placed on 7 Aug at 03:17 PM" measuredWidth="281" measuredHeight="38" style="round">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="41" x="320" y="704" width="241" text="View Details" measuredWidth="241" measuredHeight="38" link="3_Chatbot_4.screen" style="round">
-    <font size="20px"/>
+  <widgets xsi:type="model:Label" id="42" x="415" y="688" measuredWidth="54" measuredHeight="48" foreground="#f90" icon="assets/fa-gift (xlarge)" link="3_GiftCongr.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="480" y="704" measuredWidth="38" measuredHeight="32" foreground="#f90" icon="info (large)" link="3_CouponInfo.screen">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

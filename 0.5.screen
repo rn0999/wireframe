@@ -59,8 +59,8 @@
   <widgets xsi:type="model:Button" id="54" x="318" y="712" width="100" height="33" text="Back" measuredWidth="100" measuredHeight="33" background="#d9ead3" link="0.2.screen" style="round">
     <font/>
   </widgets>
-  <widgets xsi:type="model:HLine" id="55" x="219" y="472" width="409" measuredWidth="409" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="57" x="238" y="496" measuredWidth="374" measuredHeight="105">
+  <widgets xsi:type="model:HLine" id="55" x="219" y="512" width="409" measuredWidth="409" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="237" y="552" measuredWidth="374" measuredHeight="105">
     <widgets xsi:type="model:TextField" id="46" y="40" width="318" text="You can opt for our route protection for just 10/-" measuredWidth="318" measuredHeight="25" textAlignment="Center" background="#fff2cc" alpha="185" borderColor="#fff2cc">
       <font/>
     </widgets>
@@ -71,6 +71,9 @@
     <widgets xsi:type="model:Link" id="58" x="51" y="80" text="Click here to know more about route protection" measuredWidth="281" measuredHeight="25" link="0.6.screen">
       <font/>
     </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="59" x="340" y="450" width="176" text="Add Coupon code" measuredWidth="176" measuredHeight="25" textAlignment="Center" background="#fff2cc" alpha="185" borderColor="#fff2cc">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

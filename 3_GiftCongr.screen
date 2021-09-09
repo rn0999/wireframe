@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Image" id="23" x="416" y="464" measuredWidth="225" measuredHeight="225" src="assets/cel4.png"/>
+  <widgets xsi:type="model:Image" id="22" x="225" y="632" width="177" height="153" measuredWidth="177" measuredHeight="153" src="assets/balv.png"/>
+  <widgets xsi:type="model:Image" id="21" x="347" y="121" width="147" height="137" measuredWidth="147" measuredHeight="137" src="assets/cel3.png"/>
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="14" x="221" y="111" width="410" height="657" measuredWidth="410" measuredHeight="657" background="#c27ba0" alpha="128" foreground="#f0f" border="none"/>
+  <widgets xsi:type="model:Panel" id="15" x="256" y="248" width="329" height="300" measuredWidth="329" measuredHeight="300" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="16" x="313" y="272" text="Congratulations!" measuredWidth="225" measuredHeight="46" foreground="#c27ba0">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="17" x="295" y="328" width="265" height="121" text="A coupon has been added to your account. Visit My Coupons page to know more details." measuredWidth="265" measuredHeight="121" borderColor="#fff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="24" x="295" y="504" text="Click here to visit My Coupons page" measuredWidth="251" measuredHeight="28" link="3_GiftCoupon.screen">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
