@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="32" x="134" y="111" text="ONLINE SHOPPING" foreground="#f90">
+          <font size="20px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="278" y="120" measuredWidth="6" measuredHeight="29">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="221" y="160" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="258" y="348" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="39" x="252" y="184" measuredWidth="348" measuredHeight="62">
+    <widgets xsi:type="model:Label" id="26" x="59" width="289" text="Payment Failed" measuredWidth="289" measuredHeight="62" foreground="#f00">
+      <font size="40px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="27" y="7" measuredWidth="54" measuredHeight="48" foreground="#f00" icon="assets/x-circle-fill (xlarge)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="30" x="220" y="448" width="411" measuredWidth="411" measuredHeight="6" lineStyle="dashed"/>
+  <widgets xsi:type="model:Button" id="34" x="528" y="680" measuredWidth="68" measuredHeight="53" background="#f90" icon="comments (xlarge)" link="3_Chatbot_1.screen" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="36" x="237" y="480" width="372" height="145" text="*Suggestion*&#xD;&#xA;&#xD;&#xA;Please get support from Chatbot." measuredWidth="372" measuredHeight="145" borderColor="#fff">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="311" y="245" text="Error Code - #23189EFG" measuredWidth="233" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="38" x="240" y="291" width="381" height="158" text="Please note that this error code indicated payment error because of internal server error. &#xD;&#xA;The system is currently experiencing technical difficulties." measuredWidth="381" measuredHeight="158" borderColor="#fff">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

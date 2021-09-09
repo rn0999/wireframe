@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="10" y="10">
+    <widgets xsi:type="model:TextArea" id="2" width="344" height="73" text="Type here in chat.." borderColor="#9fc5e8">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="3" x="291" y="16" height="41" background="#9fc5e8" icon="assets/fa-paper-plane (medium)" style="round">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

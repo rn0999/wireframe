@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704">
+        <attributes key="verticalScrollbar" value="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="280" y="120" text="ADD NEW UPI ID" measuredWidth="143" measuredHeight="31">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="231" y="120" measuredWidth="38" measuredHeight="32" icon="assets/ic-arrow-back (large)" link="1_ModeOfPayment.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="24" x="221" y="160" width="394" measuredWidth="394" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="32" x="258" y="348" measuredWidth="6" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="281" y="141" text="BILL TOTAL : ₹3000" measuredWidth="113" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="49" x="231" y="184" width="375" text="ENTER YOUR UPI ID" measuredWidth="375" measuredHeight="33" background="#999" alpha="36" borderColor="#f90">
+    <font size="18px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="53" x="232" y="248" width="374" height="49" text="PROCEED TO PAYMENT" measuredWidth="374" measuredHeight="49" background="#f90" link="2_SuccessfulPaymentUPI.screen">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>

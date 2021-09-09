@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="32" x="134" y="111" text="ONLINE SHOPPING" foreground="#f90">
+          <font size="20px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="278" y="120" measuredWidth="6" measuredHeight="31">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="221" y="160" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="258" y="348" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="39" x="252" y="216" measuredWidth="348" measuredHeight="62">
+    <widgets xsi:type="model:Label" id="26" x="59" width="289" text="Payment Failed" measuredWidth="289" measuredHeight="62" foreground="#f00">
+      <font size="40px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="27" y="7" measuredWidth="54" measuredHeight="48" foreground="#f00" icon="assets/x-circle-fill (xlarge)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="38" x="240" y="312" width="378" height="129" text="            Currently your bank is unable to process card payments due to technical issue. Please try again using an alternate payment method." measuredWidth="378" measuredHeight="129" alpha="239" borderColor="#fff" lineHeight="1.6">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="258" y="312" measuredWidth="38" measuredHeight="32" foreground="#f00" icon="assets/exclamation-circle-fill (large)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="353" y="464" measuredWidth="146" measuredHeight="48">
+    <widgets xsi:type="model:Label" id="41" measuredWidth="54" measuredHeight="48" foreground="#6aa84f" icon="assets/arrow-repeat (xlarge)" link="1_ModeOfPayment.screen">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="44" x="56" y="1" text="RETRY" measuredWidth="90" measuredHeight="46" foreground="#6aa84f" link="1_ModeOfPayment.screen">
+      <font size="28px" bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

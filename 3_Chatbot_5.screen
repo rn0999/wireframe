@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="12" x="221" y="111" width="410" height="657" measuredWidth="410" measuredHeight="657" background="#674ea7" alpha="103" foreground="#3d85c6" border="none"/>
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="392" y="121" measuredWidth="68" measuredHeight="53" background="#f90" icon="comments (xlarge)" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="243" y="208" width="369" height="550" measuredWidth="369" measuredHeight="550" alpha="252" foreground="#fff" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="14" x="387" y="173" text="ChatBot" measuredWidth="82" measuredHeight="36" foreground="#fff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="38" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="46" x="256" y="288" measuredWidth="340" measuredHeight="345">
+    <screen xsi:type="model:Screen" href="assets/Chatbotmessage.screen#/"/>
+    <overrides>
+      <widgets ref="2" height="345" text="         Your Order Details &#xD;&#xA;&#xD;&#xA;Order ID  : 24864995&#xD;&#xA;Name  : Xyz Lmk&#xD;&#xA;No. of items  : 2&#xD;&#xA;Date  : 08 Sep 2021&#xD;&#xA;Time  : 16:40:47&#xD;&#xA;Payment Type  : NetBanking&#xD;&#xA;Status  : Incomplete&#xD;&#xA;Pending Actions  :    Transaction Failed">
+        <attributes key="lineHeight" value="1.5"/>
+      </widgets>
+      <widgets ref="3" y="316"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="47" x="400" y="232" width="202" text="View Order" measuredWidth="202" measuredHeight="36" textAlignment="Center" background="#073763">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

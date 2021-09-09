@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="47" x="304" y="313" foreground="#f90" icon="assets/star-fill (xlarge)">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="46" x="51" y="313" foreground="#f90" icon="favorites (xlarge)" link="2_ReviewAndFeedbackStar1.screen">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="45" x="174" y="313" foreground="#f90" icon="assets/star-fill (xlarge)" link="2_ReviewAndFeedbackStar2.screen">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="44" x="240" y="313" foreground="#f90" icon="assets/star-fill (xlarge)" link="2_ReviewAndFeedbackStar4.screen">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="43" x="112" y="313" foreground="#f90" icon="assets/star-fill (xlarge)" link="2_ReviewAndFeedbackStar1.screen">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="40" x="40" y="266" text="Are you Satisfied with the Service?">
+          <font size="15px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="39" x="40" y="214" text="Rate Your Experience">
+          <font size="32px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Panel" id="38" x="21" y="158" width="410" height="33" background="black" alpha="64" border="none"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="36" x="40" y="113" icon="assets/ic-arrow-back (large)" link="2_SuccessfulPayment.screen">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="32" x="104" y="111" text="Feedback">
+          <font size="20px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="7" y="101" height="704">
+        <attributes key="foreground" value="#f90"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="278" y="120" measuredWidth="6" measuredHeight="31">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="258" y="348" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="48" x="240" y="456" width="369" height="225" text="Tell us on how can we improve" measuredWidth="369" measuredHeight="225" borderColor="#ccc">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="49" x="240" y="696" width="369" text="Submit" measuredWidth="369" measuredHeight="48" background="#f90" link="2_ReviewAndFeedbackSubmit.screen" style="round">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

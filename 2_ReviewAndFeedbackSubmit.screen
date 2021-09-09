@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704">
+        <attributes key="foreground" value="#f90"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="278" y="120" measuredWidth="6" measuredHeight="31">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="258" y="348" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="244" y="256" measuredWidth="54" measuredHeight="48" foreground="#f90" icon="assets/fa-thumbs-o-up (xlarge)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="240" y="320" text="ThankYou" measuredWidth="189" measuredHeight="62">
+    <font size="40px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="244" y="381" text="Your Feedback was Successfully Submitted." measuredWidth="372" measuredHeight="33" foreground="#9fc5e8">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="252" y="440" measuredWidth="38" measuredHeight="32" foreground="#f90" icon="assets/house-door-fill (large)" link="0.1.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="297" y="438" text="Back to home" measuredWidth="136" measuredHeight="36" foreground="#f90" link="0.1.screen">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

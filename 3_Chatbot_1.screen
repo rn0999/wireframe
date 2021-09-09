@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="12" x="221" y="111" width="410" height="657" measuredWidth="410" measuredHeight="657" background="#674ea7" alpha="103" foreground="#3d85c6" border="none"/>
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="392" y="121" measuredWidth="68" measuredHeight="53" background="#f90" icon="comments (xlarge)" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="243" y="208" width="369" height="550" measuredWidth="369" measuredHeight="550" alpha="252" foreground="#fff" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="14" x="387" y="173" text="ChatBot" measuredWidth="82" measuredHeight="36" foreground="#fff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="15" x="304" y="232" width="289" height="105" text="Hi there ! Can you tell me exactly what you're looking for ?" measuredWidth="289" measuredHeight="105" background="#6fa8dc" alpha="161" borderColor="#fff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="253" y="304" measuredWidth="44" measuredHeight="29" background="#f90" icon="comments (medium)" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="304" y="408" width="264" text="Payment Issues" measuredWidth="264" measuredHeight="38" link="3_Chatbot_2.screen" style="round">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="24" x="304" y="360" width="264" text=" Info about products" measuredWidth="264" measuredHeight="38" style="round">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="26" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

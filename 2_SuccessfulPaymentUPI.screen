@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="4">
+        <object xsi:type="model:Label" id="32" x="134" y="111" text="ONLINE SHOPPING" foreground="#f90">
+          <font size="20px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="278" y="120" measuredWidth="6" measuredHeight="29">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="221" y="160" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="258" y="348" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="320" y="226" width="266" text="Payment Successful" measuredWidth="266" measuredHeight="46" foreground="#6aa84f">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="248" y="225" measuredWidth="54" measuredHeight="48" foreground="#6aa84f" icon="assets/check-circle-fill (xlarge)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="261" y="280" text="Your payment has been processed. Details are included below." measuredWidth="333" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="30" x="220" y="328" width="411" measuredWidth="411" measuredHeight="6" lineStyle="dashed"/>
+  <widgets xsi:type="model:TextArea" id="31" x="241" y="367" width="370" height="191" text="  *Amount*                  *₹ 3000.00*&#xD;&#xA;&#xD;&#xA;  Order ID                   24864995&#xD;&#xA;&#xD;&#xA;  Payment Type          UPI&#xD;&#xA;&#xD;&#xA;  Transaction Time     08 Sep 2021-16:40:47" measuredWidth="370" measuredHeight="191">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="320" y="584" width="200" text="RETURN HOME" measuredWidth="200" measuredHeight="42" background="#f90" link="0.1.screen" style="round">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="34" x="283" y="648" width="278" text="REVIEW AND FEEDBACK" measuredWidth="278" measuredHeight="38" background="#ffd966" link="2_ReviewAndFeedback.screen" style="round">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

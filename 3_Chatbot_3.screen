@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="12" x="221" y="111" width="410" height="657" measuredWidth="410" measuredHeight="657" background="#674ea7" alpha="103" foreground="#3d85c6" border="none"/>
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="392" y="121" measuredWidth="68" measuredHeight="53" background="#f90" icon="comments (xlarge)" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="243" y="208" width="369" height="550" measuredWidth="369" measuredHeight="550" alpha="252" foreground="#fff" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="14" x="387" y="173" text="ChatBot" measuredWidth="82" measuredHeight="36" foreground="#fff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="258" y="240" measuredWidth="343" measuredHeight="73">
+    <screen xsi:type="model:Screen" href="assets/Chatbotmessage.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="245" y="420"/>
+      <widgets ref="2" x="54" height="73" text="Could you share the order details ?"/>
+      <widgets ref="3" y="44"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="36" x="328" y="432" width="273" text="Placed on 9 Sept at 07:41 PM" measuredWidth="273" measuredHeight="36" textAlignment="Center" background="#073763">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="37" x="260" y="480" measuredWidth="344" measuredHeight="209">
+    <screen xsi:type="model:Screen" href="assets/Chatbotmessage.screen#/"/>
+    <overrides>
+      <widgets ref="2" x="55" height="209" text="We're sorry about your order experience. We are working on it. A coupon has been added to your account as a token of apology. Please click on View Details to get more information."/>
+      <widgets ref="3" y="176"/>
+      <widgets ref="1" x="249"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="38" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="39" x="312" y="328" width="281" text="Placed on 9 Sept at 07:41 PM" measuredWidth="281" measuredHeight="38" style="round">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="312" y="376" width="281" text="Placed on 7 Aug at 03:17 PM" measuredWidth="281" measuredHeight="38" style="round">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="41" x="320" y="704" width="241" text="View Details" measuredWidth="241" measuredHeight="38" link="3_Chatbot_4.screen" style="round">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

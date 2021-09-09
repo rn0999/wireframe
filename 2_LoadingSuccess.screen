@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="278" y="120" text="NET BANKING" measuredWidth="120" measuredHeight="31">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="231" y="120" measuredWidth="38" measuredHeight="32" icon="assets/ic-arrow-back (large)" link="1_NetBanking.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="24" x="221" y="160" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="32" x="258" y="348" measuredWidth="6" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="281" y="141" text="BILL TOTAL : ₹3000" measuredWidth="113" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="74" x="359" y="256" measuredWidth="134" measuredHeight="128" foreground="#f90" icon="loading (xxl)" link="2_SuccessfulPayment.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="75" x="372" y="400" text="Loading . . . . ." measuredWidth="112" measuredHeight="31" foreground="#f90" link="2_SuccessfulPayment.screen">
+    <font size="17px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>

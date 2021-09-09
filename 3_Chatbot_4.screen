@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Panel" id="12" x="221" y="111" width="410" height="657" measuredWidth="410" measuredHeight="657" background="#674ea7" alpha="103" foreground="#3d85c6" border="none"/>
+  <widgets xsi:type="model:Master" id="1" x="200" y="10" locked="true" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7" y="101" height="704"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="392" y="121" measuredWidth="68" measuredHeight="53" background="#f90" icon="comments (xlarge)" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="243" y="208" width="369" height="550" measuredWidth="369" measuredHeight="550" alpha="252" foreground="#fff" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="14" x="387" y="173" text="ChatBot" measuredWidth="82" measuredHeight="36" foreground="#fff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="38" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="258" y="224" measuredWidth="342" measuredHeight="449">
+    <screen xsi:type="model:Screen" href="assets/Chatbotmessage.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="251"/>
+      <widgets ref="2" x="53" height="161" text="The credit amount totals 10% of your order total and additional route protection both of which can be used directly. "/>
+      <widgets ref="3" y="368"/>
+      <widgets ref="1">
+        <widgetChanges xsi:type="o:Insert" newIndex="2">
+          <object xsi:type="model:TextArea" id="43" x="53" y="160" width="289" height="289" text="While we are working on this issue we assure you that it will be resolved in no time. But if the total resolution time exceeds 48 hours you'll be credited an amount equivalent to 120% of your order total. Click the below button to view the order details." background="#6fa8dc" alpha="161" borderColor="#fff">
+            <font size="20px" bold="true"/>
+          </object>
+        </widgetChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="45" x="312" y="688" width="241" text="View Order" measuredWidth="241" measuredHeight="38" link="3_Chatbot_5.screen" style="round">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
