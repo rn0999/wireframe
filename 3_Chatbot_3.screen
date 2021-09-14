@@ -35,7 +35,7 @@
   <widgets xsi:type="model:Button" id="38" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="39" x="312" y="328" width="281" text="Placed on 9 Sept at 07:41 PM" measuredWidth="281" measuredHeight="38" style="round">
+  <widgets xsi:type="model:Button" id="39" x="312" y="328" width="281" text="Placed on 14 Sept at 11:40 AM" measuredWidth="281" measuredHeight="38" style="round">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Button" id="40" x="312" y="376" width="281" text="Placed on 7 Aug at 03:17 PM" measuredWidth="281" measuredHeight="38" style="round">
