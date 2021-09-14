@@ -34,7 +34,7 @@
   <widgets xsi:type="model:TextField" id="28" x="384" y="465" width="209" text="Payment Issues" measuredWidth="209" measuredHeight="36" textAlignment="Center" background="#073763">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="34" x="312" y="608" width="281" text="Placed on 9 Sept at 07:41 PM" measuredWidth="281" measuredHeight="38" link="3_Chatbot_3.screen" style="round">
+  <widgets xsi:type="model:Button" id="34" x="312" y="608" width="281" text="Placed on 14 Sept at 11:40 AM" measuredWidth="281" measuredHeight="38" link="3_Chatbot_3.screen" style="round">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Button" id="36" x="243" y="136" height="47" measuredWidth="52" measuredHeight="47" background="#f90" icon="home (large)" link="0.1.screen" style="round">

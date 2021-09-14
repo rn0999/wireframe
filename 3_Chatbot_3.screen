@@ -22,7 +22,7 @@
       <widgets ref="3" y="44"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:TextField" id="36" x="328" y="432" width="273" text="Placed on 9 Sept at 07:41 PM" measuredWidth="273" measuredHeight="36" textAlignment="Center" background="#073763">
+  <widgets xsi:type="model:TextField" id="36" x="328" y="432" width="273" text="Placed on 14 Sept at 11:40 AM" measuredWidth="273" measuredHeight="36" textAlignment="Center" background="#073763">
     <font size="20px"/>
   </widgets>
   <widgets xsi:type="model:Master" id="37" x="260" y="480" measuredWidth="340" measuredHeight="201">
