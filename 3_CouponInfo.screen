@@ -7,14 +7,14 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="44" x="221" y="111" width="410" height="657" measuredWidth="410" measuredHeight="657" background="#3d85c6" alpha="128" foreground="#9fc5e8" border="none"/>
-  <widgets xsi:type="model:Panel" id="45" x="240" y="208" width="369" height="513" measuredWidth="369" measuredHeight="513" alpha="128" border="solid-rounded"/>
-  <widgets xsi:type="model:Text" id="47" x="261" y="230" width="329" height="465" text="   *Your coupon is redeemable at Online Shopping only. This coupon is not redeemable for cash, is non-transferable and cannot be used in conjection with any other coupon or discount*&#xA;   &#xA;    1. This coupon worth of total order amount and additional route protection amount if opted which can be directly used to purchase after activation. &#xA;&#xA;    2. While we are working on this issue we assure you that it will be resolved in no time. But if the total resolution time exceeds 48 hours you'll be credited an amount equivalent to 120%*** of your order total. &#xA;    &#xA;    &#xA;   " measuredWidth="329" measuredHeight="465">
+  <widgets xsi:type="model:Panel" id="45" x="240" y="208" width="369" height="529" measuredWidth="369" measuredHeight="529" alpha="128" border="solid-rounded"/>
+  <widgets xsi:type="model:Text" id="47" x="261" y="230" width="329" height="465" text="   *Your coupon is redeemable at Online Shopping only. This coupon is not redeemable for cash, is non-transferable and cannot be used in conjection with any other coupon or discount*&#xA;   &#xA;    1. This coupon worth of total order amount and additional route protection amount if opted and an additional conpensatory gift coupon of 10% upto Rs.500 will be added to your account as a token of inconvenience caused which can be directly used to purchase after activation. &#xA;&#xA;    2. While we are working on this issue we assure you that it will be resolved in no time. But if the total resolution time exceeds 48 hours you'll be credited an amount equivalent to 120%*** of your order total. &#xA;    &#xA;    &#xA;   " measuredWidth="329" measuredHeight="465">
     <font size="17px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="48" x="555" y="144" measuredWidth="54" measuredHeight="48" icon="assets/fa-times (xlarge)" link="3_Chatbot_3.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="49" x="296" y="688" text=" **Conditions apply*" measuredWidth="104" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="49" x="296" y="704" text=" **Conditions apply*" measuredWidth="104" measuredHeight="23">
     <font/>
   </widgets>
   <hRuler/>
